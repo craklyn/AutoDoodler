@@ -1,5 +1,6 @@
 function love.load()
-  texas = love.graphics.newImage("texas-outline.png")
+--  texas = love.graphics.newImage("texas-outline.png")
+  texas = love.graphics.newImage("texas-transparent.png")
   texasX = 100
   texasY = 100
   texasR = 0
