@@ -2,7 +2,7 @@ local socket = require("socket")
 
 function love.load()
 --  texas = love.graphics.newImage("texas-outline.png")
-  texas = love.graphics.newImage("texas-transparent.png")
+  texas = love.graphics.newImage("cactus-transparent.png")
   texasX = 100
   texasY = 100
   texasR = 0
@@ -16,7 +16,7 @@ function love.load()
     local b, c, h = http.request("http://love2d.org/w/images/e/e3/Resource-AnalExplosion.png")
     love.filesystem.write("expo.png", b)
   end
-  texas = love.graphics.newImage("expo.png")
+--  texas = love.graphics.newImage("expo.png")
 
 end
 
